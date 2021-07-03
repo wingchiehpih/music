@@ -2,5 +2,5 @@
 import Network from './network';
 
 export const getBanner = ()=>{
-  return Network.get(path:'banner?type=2',{})
+  return Network.get(path: 'banner?type=2',{})
 }
